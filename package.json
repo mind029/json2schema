@@ -1,6 +1,6 @@
 {
-  "name": "json2schema",
-  "version": "1.0.0",
+  "name": "@mind029/json2schema",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:mind029/json2schema.git",
   "author": "mind <294433706@qq.com>",
