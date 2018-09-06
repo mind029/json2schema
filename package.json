@@ -5,6 +5,9 @@
   "repository": "git@github.com:mind029/json2schema.git",
   "author": "mind <294433706@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha test/base.spec.js"
+  },
   "dependencies": {
     "lodash.isboolean": "^3.0.3",
     "lodash.isempty": "^4.4.0",
@@ -13,5 +16,9 @@
     "lodash.isnumber": "^3.0.3",
     "lodash.isobject": "^3.0.2",
     "lodash.isstring": "^4.0.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.3",
+    "mocha": "^5.2.0"
   }
 }
